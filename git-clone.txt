@@ -1,0 +1,46 @@
+git config --global user.name "895837110"
+git config --global user.email "songvscloud@163.com"
+
+
+cd ~/.ssh                                    //转到C：\用户\你的用户名\.ssh文件夹
+ssh-keygen -C "songvscloud@163.com" -t rsa   //生成ssh密钥，这条语句会在.ssh文件夹中生成两个必要的文件：id_rsa和id_rsa.pub，
+                                             //这是用rsa算法生成的公钥和私钥
+
+git clone git@github.com:895837110/GitCloud.git
+git clone git@github.com:895837110/PrunusFramework.git
+git clone git@github.com:895837110/ChallenProject.git
+
+git config --list
+
+//从远端获取本地不存在的分支
+//git checkout -b 本地分支名 origin/远程分支名
+git checkout -b GetRoomFromInterface origin/GetRoomFromInterface
+
+Git设置代理
+git config --global https.proxy http://127.0.0.1:1080
+git config --global https.proxy https://127.0.0.1:1080
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+
+Git代理取消
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+
+问题:
+error: Your local changes to the following files would be overwritten by checkout:
+*********
+Please commit your changes or stash them before you can switch branches.
+Aborting
+方法:
+1. git stash
+2. git checkout xxx
+3. git stash pop
+
+分支合并:
+分支-->主干
+1. git checkout master
+2. git merge develop
+主干-->分支
+1. git checkout develop
+2. git merge master
