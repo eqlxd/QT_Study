@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\GInsData_NetworkScan.cpp" />
+    <ClCompile Include="..\..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcValue.cpp">
+      <Filter>GInsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcUtil.cpp">
+      <Filter>GInsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\GInsCommon\snprintf.c">
+      <Filter>GInsCommon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GInsCommon">
+      <UniqueIdentifier>{3a38e64d-9137-4aa7-a3c1-316a5fe806ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcValue.h">
+      <Filter>GInsCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcUtil.h">
+      <Filter>GInsCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\GInsCommon\snprintf.h">
+      <Filter>GInsCommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

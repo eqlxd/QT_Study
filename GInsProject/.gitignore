@@ -1,0 +1,9 @@
+/build
+*.exp
+*.ilk
+*.sdf
+*.suo
+*.con
+*.user.*
+*.user
+.vs

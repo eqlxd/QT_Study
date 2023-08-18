@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/device.png</file>
+        <file>image/analyze.png</file>
+        <file>image/chart.png</file>
+        <file>image/storage.png</file>
+    </qresource>
+</RCC>

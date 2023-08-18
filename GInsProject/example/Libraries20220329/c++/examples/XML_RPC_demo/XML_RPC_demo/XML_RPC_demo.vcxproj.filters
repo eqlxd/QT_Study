@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\GInsCommon">
+      <UniqueIdentifier>{2188d29d-f5c0-49f9-aae6-449cce26d44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GInsCommon\CMarkup">
+      <UniqueIdentifier>{c22dc33f-a971-4abc-8851-fe69c36f601b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GInsCommon\GInsXmlRpc">
+      <UniqueIdentifier>{210ea0b9-056a-41b4-a764-4b5114dffbfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="XML_RPC_demo.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\ConvertUTF.c">
+      <Filter>Quelldateien\GInsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\ginsdevicelist.cpp">
+      <Filter>Quelldateien\GInsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\ginsstate.c">
+      <Filter>Quelldateien\GInsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\strtoi64.cpp">
+      <Filter>Quelldateien\GInsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\tcp.cpp">
+      <Filter>Quelldateien\GInsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcClient.cpp">
+      <Filter>Quelldateien\GInsCommon\GInsXmlRpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcClientTransportHTTP.cpp">
+      <Filter>Quelldateien\GInsCommon\GInsXmlRpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcUtil.cpp">
+      <Filter>Quelldateien\GInsCommon\GInsXmlRpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\GInsXmlRpc\GInsXmlRpcValue.cpp">
+      <Filter>Quelldateien\GInsCommon\GInsXmlRpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\CMarkup\MarkupSTL.cpp">
+      <Filter>Quelldateien\GInsCommon\CMarkup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GInsCommon\snprintf.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_1_ReadProjectFromController.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_2_WriteProjectToController.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_3_ReadProjectFromFile.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_4_ScanDevice.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_5_RenameAllVariables.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_6_ReadVariableProperties.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_7_ReadQstationSummary.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_8_RenameAllVariables_2.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>img/45.png</file>
+		<file>img/60.png</file>
+        <file>img/logo.png</file>
+        <file>img/pcb_strain_rate1.png</file>
+    </qresource>
+</RCC>

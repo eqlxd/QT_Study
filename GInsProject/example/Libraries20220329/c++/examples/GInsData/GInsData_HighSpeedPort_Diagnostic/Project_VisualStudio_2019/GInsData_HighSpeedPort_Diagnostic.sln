@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GInsData_HighSpeedPort_Diagnostic", "GInsData_HighSpeedPort_Diagnostic.vcxproj", "{C7FB8795-807F-48F6-BDDE-A14F26A12669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7FB8795-807F-48F6-BDDE-A14F26A12669}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7FB8795-807F-48F6-BDDE-A14F26A12669}.Debug|Win32.Build.0 = Debug|Win32
+		{C7FB8795-807F-48F6-BDDE-A14F26A12669}.Release|Win32.ActiveCfg = Release|Win32
+		{C7FB8795-807F-48F6-BDDE-A14F26A12669}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFCBCEB4-BD95-4686-911D-B9D75E212CE9}
+	EndGlobalSection
+EndGlobal
